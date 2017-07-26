@@ -1,7 +1,7 @@
 {
   "name": "chance-ext",
   "description": "A Chance.js mixin to generate file extensions.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Michael Novotny",
     "email": "manovotny@gmail.com",
