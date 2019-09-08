@@ -1,1 +1,5 @@
-module.exports = () => `.${chance.word()}`; // eslint-disable-line no-undef
+const Chance = require('chance');
+
+const chance = new Chance();
+
+module.exports = () => `.${chance.word()}`;

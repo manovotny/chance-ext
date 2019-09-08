@@ -17,9 +17,9 @@ describe('index.js', () => {
         });
     });
 
-    it('should return random extension', () => {
+    test('should return random extension', () => {
         const result = chance.ext();
 
-        expect(result).toEqual(`.${word}`);
+        expect(result).toStrictEqual(`.${word}`);
     });
 });
